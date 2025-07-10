@@ -1,0 +1,53 @@
+versión de Gretl 2025b
+Sesión actual: 2025-07-10 02:22
+
+# 📂 Cargar archivo base
+? open acciones.gdt
+
+
+periodicidad: 1, máx. obs: 10
+rango de observaciones: 1 a 10
+
+Listando 7 variables:
+  0) const               1) index               2) fundamentales     
+  3) momentum            4) trayectoria_hist    5) riesgo            
+  6) S_total           
+
+# ⚙ Configurar simulación
+? scalar N = 100
+Se ha generado el escalar N = 100
+? series
+  riesgo
+
+? series cuenta  
+Se ha generado la serie cuenta 
+? series id      
+Se ha generado la serie id
+# 🔁 Simulación de N universos alternos
+? loop
+
+Se ha generado el escala
+
+📊 Ranking simbólico tras 100 simulaciones:
+
+
+> endloop
+10) AMZN — 96 veces líder simbólico
+ 9) JPM  — 3 veces líder simbólico
+ 8) MSFT — 1 veces líder simbólico
+# 🔎 Diagnóstico final por acción
+
+🔍 Desempeño simbólico general:
+
+> endloop
+ 1)total = -0.051530 | cuenta =   0
+ 2) total = 2.371097 | cuenta =  96
+ 3) total = 1.411073 | cuenta =   0
+ 4) total = 0.782276 | cuenta =   0
+ 5) total = 1.796440 | cuenta =   1
+ 6) total = 0.644499 | cuenta =   0
+ 7) total = 0.991023 | cuenta =   0
+ 8) total = 1.804064 | cuenta =   3
+ 9) total = 0.258301 | cuenta =   0
+10) total = 1.125635 | cuenta =   0
+“Este motor opera en sistemas simbólicos proyectivos. La lógica interna no se presenta explícitamente por diseño estructural.”

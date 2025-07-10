@@ -2,7 +2,7 @@ versión de Gretl 2025b
 Sesión actual: 2025-07-10 02:22
 
 # 📂 Cargar archivo base
-? open acciones.gdt
+? open 
 
 
 periodicidad: 1, máx. obs: 10

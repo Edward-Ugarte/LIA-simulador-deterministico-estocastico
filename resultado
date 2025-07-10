@@ -8,10 +8,7 @@ Sesión actual: 2025-07-10 02:22
 periodicidad: 1, máx. obs: 10
 rango de observaciones: 1 a 10
 
-Listando 7 variables:
-  0) const               1) index               2) fundamentales     
-  3) momentum            4) trayectoria_hist    5) riesgo            
-  6) S_total           
+
 
 # ⚙ Configurar simulación
 ? scalar N = 100
